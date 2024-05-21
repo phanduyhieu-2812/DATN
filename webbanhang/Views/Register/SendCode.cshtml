@@ -1,0 +1,51 @@
+﻿@model webbanhang.ViewModels.SendcodeVM
+@{
+    ViewData["Title"] = "Đăng ký";
+}
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Quên mật khẩu</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+    </ol>
+</div>
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Đăng ký</h1>
+        <span class="text-danger">@TempData["Message"]</span>
+        <form asp-action="SendCode" asp-controller="Register" enctype="multipart/form-data">
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.AccountId" class="form-label my-3"></label>
+                            <input asp-for="@Model.AccountId" class="form-control">
+                            <span asp-validation-for="@Model.AccountId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Email" class="form-label my-3"></label>
+                            <input asp-for="@Model.Email" class="form-control">
+                            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                    <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Lấy lại mật khẩu</button>
+                </div>
+            </div>
+        </form>
+        <form asp-action="DangNhap" asp-controller="Register">
+            <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Quay lại đăng nhập</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+

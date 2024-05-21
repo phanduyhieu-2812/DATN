@@ -1,0 +1,63 @@
+﻿@model webbanhang.ViewModels.AddGenreVM
+@{
+    ViewData["Title"] = "Cập nhật loại sản phẩm";
+    Layout = "_AdminLayout";
+}
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">cập nhật loại sản phẩm @Model.GenreName</h1>
+        <span class="text-danger">@TempData["Message"]</span>
+        <span class="text-success">@TempData["Messagei"]</span>
+        <form asp-action="UpdateGenre" asp-controller="Admin" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="form-item w-100">
+                        <label  class="form-label my-3">Tên loại sản phẩm</label>
+                        <input name="GenreName" value="@Model.GenreName" class="form-control">                       
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="form-item">
+                        <label class="form-label my-3" for="Avatar">Icon ảnh</label>
+                        <input type="file" id="Avatar" name="Image" class="form-control" onchange="previewImage(event)">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="preview-container">
+                        <img id="preview" src="~/Hinh/icon/@Model.icon" alt="Ảnh sản phẩm">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                        <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Xác nhận</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    function previewImage(event) {
+        var input = event.target;
+        var preview = document.getElementById('preview');
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                preview.src = e.target.result;
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+
+</script>
+<style>
+    #preview {
+        width: 200px; /* Chiều rộng cố định */
+        height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+        max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước của cha */
+        max-height: 200px; /* Chiều cao tối đa */
+    }
+</style>
+

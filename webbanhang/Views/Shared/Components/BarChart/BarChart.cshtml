@@ -1,0 +1,59 @@
+﻿@model webbanhang.ViewModels.BarChart
+<div class="col-xl-8 col-lg-7">
+    <div class="card shadow mb-4">
+        <!-- Card Header - Dropdown -->
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">Biểu đồ doanh thu theo thương hiệu</h6>
+            @*  <div class="dropdown no-arrow">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+            aria-labelledby="dropdownMenuLink">
+            <div class="dropdown-header">Dropdown Header:</div>
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </div> *@
+        </div>
+        <!-- Card Body -->
+        <canvas id="myBarChart" width="50" height="50"></canvas>
+
+        <script>
+            // Dữ liệu biểu đồ
+            var data = {
+                labels: ['5THEWAY', 'UNCOVER', 'DAVIES', 'ZUNE.ZX', 'Dirty Coins', 'Bad Habits'],
+                datasets: [{
+                    label: 'Doanh thu theo thương hiệu',
+                    data: [@Model.Theway, @Model.Uncover, @Model.Davies, @Model.Zun, @Model.Dcoin, @Model.Badhabit], // Dữ liệu
+                    backgroundColor: [
+                        '#4682b4', '#4682b4', '#4682b4', '#4682b4', '#4682b4', '#4682b4', '#4682b4'
+                    ] // Mã màu
+                }]
+            };
+
+            // Tùy chọn của biểu đồ
+            var options = {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            };
+
+            // Tạo biểu đồ Bar Chart
+            var ctx = document.getElementById('myBarChart').getContext('2d');
+            var myBarChart = new Chart(ctx, {
+                type: 'bar',
+                data: data,
+                options: options
+            });
+        </script>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+﻿@model double // hoặc kiểu dữ liệu mà bạn đã chuyển từ Controller
+
+<div class="col-12">
+    <div class="pagination d-flex justify-content-center mt-5">
+        <a href="#" class="rounded">&laquo;</a>
+
+        @for (int i = 1; i <= Model; i++)
+        {
+            <a asp-action="Index" asp-controller="HangHoa" asp-route-page="@i" class="@(i == 1 ? "active" : "") rounded">@i</a>
+        }
+
+        <a href="#" class="rounded">&raquo;</a>
+    </div>
+</div>

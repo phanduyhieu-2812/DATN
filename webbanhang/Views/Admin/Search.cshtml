@@ -1,0 +1,208 @@
+﻿@using System.Security.Claims
+@model IEnumerable<webbanhang.ViewModels.ProductVM>
+@{
+    ViewData["Title"] = "Danh mục sản phẩm";
+    Layout = "_AdminLayout";
+}
+<div id="content-wrapper" class="d-flex flex-column">
+
+    <!-- Main Content -->
+    <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+            <!-- Sidebar Toggle (Topbar) -->
+            <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Topbar Search -->
+            <form asp-action ="Search" asp-controller="Admin" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Tìm kiếm"
+                           aria-label="Search" name="query" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto">
+
+                <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                <li class="nav-item dropdown no-arrow d-sm-none">
+                    <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <!-- Dropdown - Messages -->
+                </li>
+
+                <!-- Nav Item - Alerts -->
+                <!-- Nav Item - Messages -->
+                <!-- Nav Item - User Information -->
+                <li class="nav-item dropdown no-arrow">
+                    <a class="nav-link dropdown-toggle" id="userDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="mr-2 d-none d-lg-inline text-gray-600 small">@Context.User.FindFirstValue(ClaimTypes.Name)</span>
+                        <img class="img-profile rounded-circle" src="~/Hinh/Account/@Context.User.FindFirstValue("Hinh")">
+                    </a>
+                    <!-- Dropdown - User Information -->
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                         aria-labelledby="userDropdown">
+                        <a asp-action="Profile" asp-controller="Register" class="dropdown-item">
+                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Profile
+                        </a>
+
+
+                        <div class="dropdown-divider"></div>
+                        <a asp-action="DangXuat" asp-controller="Register" class="dropdown-item" data-toggle="modal" data-target="#logoutModal">
+                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Logout
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+            <!-- Page Heading -->
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                <h1 class="h3 mb-0 text-gray-800">Danh mục sản phẩm</h1>
+                <a asp-action="AddProduct" asp-controller="Admin" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                    <i class="fas fa-plus fa-sm text-white-50"></i> Thêm sản phẩm mới
+                </a>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <!-- Page Heading -->
+            <!-- DataTales Example -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Bảng thống kê sản phẩm</h6>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Tên Sản phẩm</th>
+                                    <th scope="col">Hình ảnh</th>
+                                    <th scope="col">Tên thương hiệu</th>
+                                    <th scope="col">Loại sản phẩm</th>
+                                    <th scope="col">Đơn giá</th>
+                                    <th scope="col">Lượt mua</th>
+                                    <th scope="col">Lượt xem</th>
+                                    <th scope="col">Tồn kho</th>
+                                    <th scope="col">Người tạo</th>
+                                    <th scope="col">Ngày tạo</th>
+                                    <th scope="col">Người Update</th>
+                                    <th scope="col">Ngày Update</th>
+                                    <th scope="col">Xóa sản phẩm</th>
+                                    <th scope="col">Chỉnh sửa sản phẩm</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                            <th scope="col">Tên Sản phẩm</th>
+                            <th scope="col">Hình ảnh</th>
+                            <th scope="col">Tên thương hiệu</th>
+                            <th scope="col">Loại sản phẩm</th>
+                            <th scope="col">Đơn giá</th>
+                            <th scope="col">Lượt mua</th>
+                            <th scope="col">Lượt xem</th>
+                            <th scope="col">Tồn kho</th>
+                            <th scope="col">Người tạo</th>
+                            <th scope="col">Ngày tạo</th>
+                            <th scope="col">Người Update</th>
+                            <th scope="col">Ngày Update</th>
+                            <th scope="col">Xóa sản phẩm</th>
+                            <th scope="col">Chỉnh sửa sản phẩm</th>
+                            </tfoot>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <a>
+                                                <p class="mb-0 mt-4">@item.ProductName</p>
+                                            </a>
+                                        </td>
+                                        <th scope="row">
+                                            <div class="d-flex align-items-center">
+                                                <img src="~/Hinh/product1/@item.Image" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
+                                            </div>
+                                        </th>
+                                        <td>
+                                            <p class="mb-0 mt-4">@item.BrandName</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">@item.GenreName</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">@string.Format("{0:N0} VNĐ", @item.Price)</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">@item.Byturn</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">@item.Views</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">@item.Quantity</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">@item.CreateBy</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">@item.CreateAt</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">@item.UpdateBy</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">@item.UpdateAt</p>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-md rounded-circle bg-light border mt-4">
+                                                <i class="fa fa-times text-danger"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-md rounded-circle bg-light border mt-4">
+                                                <i class="fa fa-wrench"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- End of Main Content -->
+    <!-- Footer -->
+    <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+</div>
+

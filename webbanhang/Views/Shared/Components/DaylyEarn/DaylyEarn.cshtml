@@ -1,0 +1,57 @@
+﻿@model webbanhang.ViewModels.PieChartVM
+
+<div class="col-xl-4 col-lg-5">
+    <div class="card shadow mb-4">
+        <!-- Card Header - Dropdown -->
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">Biểu đồ doanh thu theo loại sản phẩm</h6>
+            <div class="dropdown no-arrow">
+                @* <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                </a> *@
+                @* <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                aria-labelledby="dropdownMenuLink">
+                <div class="dropdown-header">Dropdown Header:</div>
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div> *@
+            </div>
+        </div>
+        <!-- Card Body -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <canvas id="myPieChart1" width="400" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Dữ liệu biểu đồ
+            var data = {
+                labels: ['T-shirt', 'JACKET', 'CROPTOP', 'HOODIE', 'BACKPACK', 'BAG', 'WALLET', 'CAP', 'PANT', 'SHORT', 'JEAN', 'BLAZER', 'BOMBER', 'HAT', 'CARAVAT', 'SHIRT', 'Cardigan', 'Slides'],
+                datasets: [{
+                    data: [@Model.Tshirt, @Model.JACKET, @Model.CROPTOP, @Model.HOODIE, @Model.BACKPACK, @Model.BAG, @Model.WALLET, @Model.CAP, @Model.PANT, @Model.SHORT, @Model.JEAN, @Model.BLAZER, @Model.BOMBER, @Model.HAT, @Model.HAT, @Model.CARAVAT, @Model.SHIRT, @Model.SHIRT, @Model.Cardigan, @Model.Slides], // Phần trăm của mỗi phần trong biểu đồ
+                    backgroundColor: ['#ff6347', '#4682b4', '#ffd700', '#32cd32', '#00ced1', '#ff69b4', '#d3d3d3', '#8a2be2', '#00ff00', '#ff4500', '#9400d3', '#ffdab9', '#20b2aa', '#ff8c00', '#9370db', '#b0c4de', '#ff7f50', '#808000', '#87cefa'] // Màu sắc của mỗi phần trong biểu đồ
+                }]
+            };
+
+            // Tùy chọn của biểu đồ
+            var options = {
+                responsive: true,
+                maintainAspectRatio: false
+            };
+
+            // Tạo biểu đồ hình bánh
+            var ctx = document.getElementById('myPieChart1').getContext('2d');
+            var myPieChart = new Chart(ctx, {
+                type: 'pie',
+                data: data,
+                options: options
+            });
+        </script>
+    </div>
+</div>

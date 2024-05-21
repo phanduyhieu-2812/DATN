@@ -1,0 +1,32 @@
+﻿@model IEnumerable<webbanhang.ViewModels.MenuLoai>
+<form id="myForm" asp-action="AddProduct" asp-controller="Admin" method="post">
+    <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4 mt-5">
+        <label for="fruits">Tên loại sản phẩm: </label>
+        <select id="Product_ID" name="Genre_ID" class="border-0 form-select-sm bg-light me-3">
+            @foreach (var item in Model)
+            {
+                <option value="@item.MaLoai">@item.TenLoai</option>
+            }
+        </select>
+    </div>
+</form>
+<script>
+    document.getElementById("Product_ID").addEventListener("change", function () {
+        var selectedValue = this.value;
+        var formData = new FormData();
+        formData.append("Genre_ID", selectedValue);
+
+        fetch("/Admin/AddProduct", {
+            method: "POST",
+            body: formData
+        })
+            .then(response => response.text())
+            .then(data => {
+                // Xử lý kết quả nếu cần
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    });
+
+</script>

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<webbanhang.ViewModels.HangHoaVM>
+
+<form id="myForm" asp-action="AddProduct" asp-controller="Admin" method="post">
+    <input type="hidden" id="Genre_ID" name="Genre_ID" value="">
+    <input type="hidden" id="Brand_ID" name="Brand_ID" value="">
+    <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4 mt-5">
+        <label for="fruits">Brand : </label>
+        <select id="BrandSelect" class="border-0 form-select-sm bg-light me-3">
+            @foreach (var item in ViewBag.Brands)
+            {
+                <option value="@item.Mabrand">@item.Tenbrand</option>
+            }
+        </select>
+    </div>
+    <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4 mt-5">
+        <label for="fruits">Tên loại sản phẩm: </label>
+        <select id="GenreSelect" class="border-0 form-select-sm bg-light me-3">
+            @foreach (var item in ViewBag.Genres)
+            {
+                <option value="@item.MaLoai">@item.Tenloai</option>
+            }
+        </select>
+    </div>
+</form>
+
+
+
+
+
+<script>
+    document.getElementById("BrandSelect").addEventListener("change", function () {
+        var brandValue = this.value;
+        document.getElementById("Brand_ID").value = brandValue;
+        sendDataIfBothSelected();
+    });
+
+    document.getElementById("GenreSelect").addEventListener("change", function () {
+        var genreValue = this.value;
+        document.getElementById("Genre_ID").value = genreValue;
+        sendDataIfBothSelected();
+    });
+
+    function sendDataIfBothSelected() {
+        var genreValue = document.getElementById("Genre_ID").value;
+        var brandValue = document.getElementById("Brand_ID").value;
+
+        if (genreValue && brandValue) {
+            document.getElementById("myForm").submit();
+        }
+    }
+</script>

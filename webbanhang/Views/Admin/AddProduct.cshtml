@@ -1,0 +1,106 @@
+﻿@model webbanhang.ViewModels.AddproductVM
+@{
+    ViewData["Title"] = "Thêm mới sản phẩm";
+    Layout = "_AdminLayout";
+}
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Thêm sản phẩm mới</h1>
+        <span class="text-danger">@TempData["Message"]</span>
+        <span class="text-success">@TempData["Messagei"]</span>
+        <form asp-action="AddProduct" asp-controller="Admin" enctype="multipart/form-data">
+            <div class="row">
+                
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.ProductName" class="form-label my-3"></label>
+                            <input asp-for="@Model.ProductName" class="form-control">
+                            <span asp-validation-for="@Model.ProductName" class="text-danger"></span>
+
+                        </div>
+                    </div>                              
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Price" class="form-label my-3"></label>
+                            <input asp-for="@Model.Price" class="form-control">
+                            <span asp-validation-for="@Model.Price" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Quantity" class="form-label my-3"></label>
+                            <input asp-for="@Model.Quantity" class="form-control">
+                            <span asp-validation-for="@Model.Quantity" class="text-danger"></span>
+                        </div>
+                    </div>
+                
+                
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Specifications" class="form-label my-3"></label>
+                            <input asp-for="@Model.Specifications" class="form-control">
+                            <span asp-validation-for="@Model.Specifications" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Description" class="form-label my-3"></label>
+                            <input asp-for="@Model.Description" class="form-control">
+                            <span asp-validation-for="@Model.Description" class="text-danger"></span>
+                        </div>
+                    </div>
+                
+                
+                    <div class="col-md-12 col-lg-6">
+                            @await Component.InvokeAsync("AddBrand")
+                    </div>
+
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item">
+                            <label class="form-label my-3" for="Avatar">Ảnh sản phẩm</label>
+                            <input type="file" id="Avatar" name="Image" class="form-control" onchange="previewImage(event)">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="preview-container">
+                            <img id="preview" src="#" alt="Ảnh sản phẩm">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                            <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Xác nhận</button>
+                        </div>
+                    </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    function previewImage(event) {
+        var input = event.target;
+        var preview = document.getElementById('preview');
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                preview.src = e.target.result;
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        } else {
+            preview.src = "#";
+        }
+    }
+</script>
+<style>
+    #preview {
+        width: 200px; /* Chiều rộng cố định */
+        height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+        max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước của cha */
+        max-height: 200px; /* Chiều cao tối đa */
+    }
+</style>
+

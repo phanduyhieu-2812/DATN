@@ -1,0 +1,1370 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DATN\\webbanhang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\brand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\brand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\genres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\genres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\cart\\oderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\cart\\oderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\hanghoa\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\hanghoa\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\hanghoa\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\hanghoa\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\hanghoa\\loaiindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\hanghoa\\loaiindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\hanghoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\hanghoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\hanghoa\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\hanghoa\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\hanghoa\\chitiethh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\hanghoa\\chitiethh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\hanghoa\\brandindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\hanghoa\\brandindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\updatebrand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\updatebrand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\data\\webdatncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\data\\webdatncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\updategenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\updategenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\addgenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\addgenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\addbrand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\addbrand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\register\\updatesuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\register\\updatesuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\register\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\register\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\register\\sendcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\register\\sendcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\register\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\register\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\register\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\register\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\register\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\register\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\register\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\register\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\cart\\checkoutsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\cart\\checkoutsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\home\\secure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\home\\secure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\shared\\components\\addbrand\\addbrand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\components\\addbrand\\addbrand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewconponents\\menuloaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewconponents\\menuloaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewconponents\\menuloaiindexviewcomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewconponents\\menuloaiindexviewcomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\wwwroot\\shop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\wwwroot\\shop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewconponents\\pageviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewconponents\\pageviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\shared\\components\\page\\page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\components\\page\\page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\shared\\components\\neworder\\neworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\components\\neworder\\neworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\chitiethanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\chitiethanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\data\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\data\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\shared\\components\\newfeedback\\newfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\components\\newfeedback\\newfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\accountvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\accountvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewconponents\\pagecustomerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewconponents\\pagecustomerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\views\\shared\\components\\pagecustomer\\pagecustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\components\\pagecustomer\\pagecustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewconponents\\pageproductviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewconponents\\pageproductviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\data\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\data\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\fvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\fvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\feedbackvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\feedbackvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\odetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\odetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\data\\oderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\data\\oderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\checkoutadminvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\checkoutadminvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\addbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\addbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\addgenrevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\addgenrevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\genresvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\genresvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\addproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\addproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\data\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\data\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\updatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\updatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewconponents\\addbrandviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewconponents\\addbrandviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewconponents\\cartproductviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewconponents\\cartproductviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\wwwroot\\admin\\tables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\wwwroot\\admin\\tables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\helpers\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\helpers\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\changepasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\changepasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\wwwroot\\admin\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\wwwroot\\admin\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\menuloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\menuloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|c:\\datn\\webbanhang\\webbanhang\\viewmodels\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E302A28B-9022-4C93-8A43-18940B4A77B8}|webbanhang\\webbanhang.csproj|solutionrelative:webbanhang\\viewmodels\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "webbanhang\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAANEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:52:20.797Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Brand.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Brand.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\Brand.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Brand.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\Brand.cshtml",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAqwNgAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T15:46:00.106Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Genres.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Genres.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\Genres.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Genres.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\Genres.cshtml",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAAAMsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T12:25:28.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAGIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T04:53:01.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\Search.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\HangHoa\\Search.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\Search.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\HangHoa\\Search.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T01:48:23.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Productitem.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\Productitem.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\HangHoa\\Productitem.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\Productitem.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\HangHoa\\Productitem.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T01:48:41.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Product.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\Product.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Product.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\Product.cshtml",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAAANgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T02:07:18.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAACEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:27:32.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OderHistory.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\OderHistory.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Cart\\OderHistory.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\OderHistory.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Cart\\OderHistory.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T10:38:43.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoaiIndex.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\LoaiIndex.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\HangHoa\\LoaiIndex.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\LoaiIndex.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\HangHoa\\LoaiIndex.cshtml",
+              "ViewState": "AQIAALgAAAAAAAAAAAAqwAcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T17:23:54.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentFail.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Cart\\PaymentFail.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Cart\\PaymentFail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:27:36.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\Index.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\HangHoa\\Index.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\Index.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\HangHoa\\Index.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T09:49:02.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Feedback.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\Feedback.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\HangHoa\\Feedback.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\Feedback.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\HangHoa\\Feedback.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:28:03.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChiTietHH.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\ChiTietHH.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\HangHoa\\ChiTietHH.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\ChiTietHH.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\HangHoa\\ChiTietHH.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T03:16:37.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BrandIndex.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\BrandIndex.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\HangHoa\\BrandIndex.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\HangHoa\\BrandIndex.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\HangHoa\\BrandIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T18:05:32.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Controllers\\HangHoaController.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "webbanhang\\Controllers\\HangHoaController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAkwJEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:24:57.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateBrand.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\UpdateBrand.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\UpdateBrand.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\UpdateBrand.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\UpdateBrand.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T16:37:24.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\appsettings.json",
+              "RelativeDocumentMoniker": "webbanhang\\appsettings.json",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\appsettings.json",
+              "RelativeToolTip": "webbanhang\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T08:39:38.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebDatnContext.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Data\\WebDatnContext.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Data\\WebDatnContext.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Data\\WebDatnContext.cs",
+              "RelativeToolTip": "webbanhang\\Data\\WebDatnContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA+wDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:35:12.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\AddProduct.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\AddProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T10:52:26.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateGenre.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\UpdateGenre.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\UpdateGenre.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\UpdateGenre.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\UpdateGenre.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T15:02:42.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderDetail.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\OrderDetail.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\OrderDetail.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\OrderDetail.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\OrderDetail.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:47:21.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Feedback.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Feedback.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\Feedback.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Feedback.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\Feedback.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T03:05:47.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Customer.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Customer.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\Customer.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Customer.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\Customer.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAD8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T04:46:36.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\Checkout.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Checkout.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\Checkout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAD4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T17:50:52.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddGenre.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\AddGenre.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\AddGenre.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\AddGenre.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\AddGenre.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T02:20:06.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddBrand.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\AddBrand.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\AddBrand.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\AddBrand.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\AddBrand.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T15:53:03.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAALoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T05:30:08.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Register\\DangNhap.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\DangNhap.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Register\\DangNhap.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:28:58.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\Profile.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Register\\Profile.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\Profile.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Register\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:29:00.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SendCode.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\SendCode.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Register\\SendCode.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\SendCode.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Register\\SendCode.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:29:13.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\Success.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Register\\Success.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\Success.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Register\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:29:25.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:50:37.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateSuccess.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\UpdateSuccess.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Register\\UpdateSuccess.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\UpdateSuccess.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Register\\UpdateSuccess.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:29:38.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DangKy.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\DangKy.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Register\\DangKy.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\DangKy.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Register\\DangKy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:28:57.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Program.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Program.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Program.cs",
+              "RelativeToolTip": "webbanhang\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T08:02:28.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Register\\ChangePassword.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Register\\ChangePassword.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Register\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T10:39:08.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CheckoutSuccess.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\CheckoutSuccess.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Cart\\CheckoutSuccess.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Cart\\CheckoutSuccess.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Cart\\CheckoutSuccess.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:27:21.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Secure.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Home\\Secure.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Home\\Secure.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Home\\Secure.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Home\\Secure.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T08:04:32.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "webbanhang\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T04:34:15.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MenuLoaiViewComponent.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\MenuLoaiViewComponent.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewConponents\\MenuLoaiViewComponent.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\MenuLoaiViewComponent.cs",
+              "RelativeToolTip": "webbanhang\\ViewConponents\\MenuLoaiViewComponent.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:30:13.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Mainlayout.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\_Mainlayout.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Shared\\_Mainlayout.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\_Mainlayout.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Shared\\_Mainlayout.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T04:21:20.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AddBrand.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\AddBrand\\AddBrand.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Shared\\Components\\AddBrand\\AddBrand.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\AddBrand\\AddBrand.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Shared\\Components\\AddBrand\\AddBrand.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T10:58:45.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MenuLoaiIndexViewComponents.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\MenuLoaiIndexViewComponents.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewConponents\\MenuLoaiIndexViewComponents.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\MenuLoaiIndexViewComponents.cs",
+              "RelativeToolTip": "webbanhang\\ViewConponents\\MenuLoaiIndexViewComponents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T02:01:56.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_DanhSachHangHoa.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T01:34:04.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAALoAAAAAAAAAAAAAAA4AAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:01:50.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PageViewComponent.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\PageViewComponent.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewConponents\\PageViewComponent.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\PageViewComponent.cs",
+              "RelativeToolTip": "webbanhang\\ViewConponents\\PageViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T02:11:55.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "shop.html",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\wwwroot\\shop.html",
+              "RelativeDocumentMoniker": "webbanhang\\wwwroot\\shop.html",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\wwwroot\\shop.html",
+              "RelativeToolTip": "webbanhang\\wwwroot\\shop.html",
+              "ViewState": "AQIAALcAAAAAAAAAAABRwMcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-16T04:25:38.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Page.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\Page\\Page.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Shared\\Components\\Page\\Page.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\Page\\Page.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Shared\\Components\\Page\\Page.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T02:36:37.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T15:41:46.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "NewOrder.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\NewOrder\\NewOrder.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Shared\\Components\\NewOrder\\NewOrder.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\NewOrder\\NewOrder.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Shared\\Components\\NewOrder\\NewOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T05:37:04.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ChiTietHangHoaVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\ChiTietHangHoaVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\ChiTietHangHoaVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\ChiTietHangHoaVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\ChiTietHangHoaVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:51:33.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Data\\Feedback.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Data\\Feedback.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Data\\Feedback.cs",
+              "RelativeToolTip": "webbanhang\\Data\\Feedback.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T04:04:02.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "NewFeedBack.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\NewFeedBack\\NewFeedBack.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Shared\\Components\\NewFeedBack\\NewFeedBack.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\NewFeedBack\\NewFeedBack.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Shared\\Components\\NewFeedBack\\NewFeedBack.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T05:38:18.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AccountVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\AccountVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\AccountVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\AccountVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\AccountVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T04:30:01.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PageCustomerViewComponent.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\PageCustomerViewComponent.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewConponents\\PageCustomerViewComponent.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\PageCustomerViewComponent.cs",
+              "RelativeToolTip": "webbanhang\\ViewConponents\\PageCustomerViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T04:42:48.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PageCustomer.cshtml",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\PageCustomer\\PageCustomer.cshtml",
+              "RelativeDocumentMoniker": "webbanhang\\Views\\Shared\\Components\\PageCustomer\\PageCustomer.cshtml",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Views\\Shared\\Components\\PageCustomer\\PageCustomer.cshtml",
+              "RelativeToolTip": "webbanhang\\Views\\Shared\\Components\\PageCustomer\\PageCustomer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T04:45:00.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PageProductViewComponent.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\PageProductViewComponent.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewConponents\\PageProductViewComponent.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\PageProductViewComponent.cs",
+              "RelativeToolTip": "webbanhang\\ViewConponents\\PageProductViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T02:12:44.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "FeedbackVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\FeedbackVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\FeedbackVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\FeedbackVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\FeedbackVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T04:03:40.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "FVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\FVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\FVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\FVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\FVM.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T04:03:53.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Data\\Account.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Data\\Account.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Data\\Account.cs",
+              "RelativeToolTip": "webbanhang\\Data\\Account.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:54:37.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OderDetail.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Data\\OderDetail.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Data\\OderDetail.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Data\\OderDetail.cs",
+              "RelativeToolTip": "webbanhang\\Data\\OderDetail.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwB8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:39:17.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ODetailVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\ODetailVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\ODetailVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\ODetailVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\ODetailVM.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvxwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:38:40.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Controllers\\CartController.cs",
+              "RelativeToolTip": "webbanhang\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAJcBAAAAAAAAAAAuwMwBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:35:46.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CheckoutAdminVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\CheckoutAdminVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\CheckoutAdminVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\CheckoutAdminVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\CheckoutAdminVM.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:19:07.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "AddGenreVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\AddGenreVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\AddGenreVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\AddGenreVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\AddGenreVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:40:27.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AddBrand.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\AddBrand.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\AddBrand.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\AddBrand.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\AddBrand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T16:31:15.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "GenresVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\GenresVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\GenresVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\GenresVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\GenresVM.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:29:23.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AddProductVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\AddProductVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\AddProductVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\AddProductVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\AddProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:56:06.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Data\\Genre.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Data\\Genre.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Data\\Genre.cs",
+              "RelativeToolTip": "webbanhang\\Data\\Genre.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:40:44.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Data\\Product.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Data\\Product.cs",
+              "RelativeToolTip": "webbanhang\\Data\\Product.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T04:31:10.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "UpdateVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\UpdateVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\UpdateVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\UpdateVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\UpdateVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T04:30:50.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "AddBrandViewComponent.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\AddBrandViewComponent.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewConponents\\AddBrandViewComponent.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\AddBrandViewComponent.cs",
+              "RelativeToolTip": "webbanhang\\ViewConponents\\AddBrandViewComponent.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:42:22.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CartProductViewComponent.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\CartProductViewComponent.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewConponents\\CartProductViewComponent.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewConponents\\CartProductViewComponent.cs",
+              "RelativeToolTip": "webbanhang\\ViewConponents\\CartProductViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:40:38.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "tables.html",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\wwwroot\\admin\\tables.html",
+              "RelativeDocumentMoniker": "webbanhang\\wwwroot\\admin\\tables.html",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\wwwroot\\admin\\tables.html",
+              "RelativeToolTip": "webbanhang\\wwwroot\\admin\\tables.html",
+              "ViewState": "AQIAAF4BAAAAAAAAAIBJwGsBAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-13T02:15:03.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Util.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\Helpers\\Util.cs",
+              "RelativeDocumentMoniker": "webbanhang\\Helpers\\Util.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\Helpers\\Util.cs",
+              "RelativeToolTip": "webbanhang\\Helpers\\Util.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:26:43.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ChangePasswordVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\ChangePasswordVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\ChangePasswordVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\ChangePasswordVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\ChangePasswordVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:17:35.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\CartItem.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\CartItem.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\CartItem.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:55:54.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\wwwroot\\admin\\login.html",
+              "RelativeDocumentMoniker": "webbanhang\\wwwroot\\admin\\login.html",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\wwwroot\\admin\\login.html",
+              "RelativeToolTip": "webbanhang\\wwwroot\\admin\\login.html",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-13T01:05:25.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\CartModel.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\CartModel.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\CartModel.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\CartModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:55:55.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "MenuLoai.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\MenuLoai.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\MenuLoai.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\MenuLoai.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\MenuLoai.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:56:35.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:54:49.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "orderVm.cs",
+              "DocumentMoniker": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\orderVm.cs",
+              "RelativeDocumentMoniker": "webbanhang\\ViewModels\\orderVm.cs",
+              "ToolTip": "C:\\DATN\\webbanhang\\webbanhang\\ViewModels\\orderVm.cs",
+              "RelativeToolTip": "webbanhang\\ViewModels\\orderVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:36:44.837Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+﻿@model webbanhang.ViewModels.ChiTietHangHoaVM
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "_MainLayout";
+}
+
+
+<!-- Single Page Header start -->
+<div class="container-fluid page-header py-5">
+</div>
+<!-- Single Product Start -->
+<div class="container-fluid py-5 mt-5">
+    <div class="container py-5">
+        <div class="row g-4 mb-5">
+            <div class="col-lg-8 col-xl-9">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="border rounded">
+                            <a href="#">
+                                <img src="~/Hinh/product1/@Model.Hinh" class="img-fluid rounded" alt="@Model.TenHh">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4 class="fw-bold mb-3">@Model.TenHh</h4>
+                        <p class="mb-3">Loại sản phẩm: @Model.Tenloai</p>
+                        <h5 class="fw-bold mb-3">@string.Format("{0:N0} VNĐ", @Model.DonGia)</h5>
+                        <div class="d-flex mb-4">
+                            @{
+                                // Bắt đầu một khối mã C#
+                                for (int i = 1; i <= Model.ratestar; i++)
+                                {
+                                // Thân vòng lặp: đoạn mã bạn muốn lặp lại
+                                    <i class="fa fa-star text-secondary"></i>
+                                }
+                            }
+                            @{
+                                // Bắt đầu một khối mã C#
+                                for (int i = 1; i <= (5 - Model.ratestar); i++)
+                                {
+                                // Thân vòng lặp: đoạn mã bạn muốn lặp lại
+                                    <i class="fa fa-star"></i>
+                                }
+                            }
+                            
+                            
+                        </div>
+                        <p class="mb-4">@Model.Motangan</p>
+                        <form asp-action="AddToCart" asp-controller="Cart" asp-route-id ="@Model.MaHh">
+                            <label class="form-check-label" for="exampleRadios1">
+                                Size: 
+                            </label>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="size" id="exampleRadios1" value="S" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        S
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="size" id="exampleRadios2" value="M">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        M
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="size" id="exampleRadios3" value="L">
+                                    <label class="form-check-label" for="exampleRadios3">
+                                        L
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="size" id="exampleRadios4" value="XL">
+                                    <label class="form-check-label" for="exampleRadios4">
+                                        XL
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="size" id="exampleRadios5" value="2XL">
+                                    <label class="form-check-label" for="exampleRadios5">
+                                        2XL
+                                    </label>
+                                </div>
+                            </div>
+                            <button  class="btn border border-secondary rounded-pill px-4 py-2 mb-4 text-primary mt-2"><i class="fa fa-shopping-bag me-2 text-primary"></i>Đưa vào giỏ</button>
+                        </form>
+                        
+                    </div>
+                    <div class="col-lg-12">
+                        <nav>
+                            <div class="nav nav-tabs mb-3">
+                                <button class="nav-link active border-white border-bottom-0" type="button" role="tab"
+                                        id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about"
+                                        aria-controls="nav-about" aria-selected="true">
+                                    Thông tin sản phẩm
+                                </button>
+                              
+                            </div>
+                        </nav>
+                        <div class="tab-content mb-5">
+                            <div class="tab-pane active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                                @Model.ChiTiet
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <form asp-action="Feedback" asp-controller="HangHoa" asp-route-id="@Model.MaHh">
+                        <h4 class="mb-5 fw-bold"> Hãy để lại ý kiến của bạn</h4>
+                        <div class="row g-4">
+                            
+                            <div class="col-lg-12">
+                                <div class="border-bottom rounded my-4">
+                                    <textarea name="Content" id="" class="form-control border-0" cols="30" rows="8" placeholder="Đánh giá của bạn" spellcheck="false"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="d-flex justify-content-between py-3 mb-5">
+                                    <div class="d-flex align-items-center">
+                                        <button type="submit"  class="btn border border-secondary rounded-pill px-4 py-2 mb-2 text-primary"> Gửi đánh giá</button>
+                                        <p class="mb-0 me-3">Please rate:</p>   
+                                        <div id="full-stars-example-two">
+                                            <div class="rating-group">
+                                                <input disabled checked class="rating__input rating__input--none" name="rate" id="rating3-none" value="0" type="radio">
+                                                <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                <input class="rating__input" name="rate" id="rating3-1" value="1" type="radio">
+                                                <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                <input class="rating__input" name="rate" id="rating3-2" value="2" type="radio">
+                                                <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                <input class="rating__input" name="rate" id="rating3-3" value="3" type="radio">
+                                                <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                <input class="rating__input" name="rate" id="rating3-4" value="4" type="radio">
+                                                <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                                <input class="rating__input" name="rate" id="rating3-5" value="5" type="radio">
+                                            </div>
+                                            <style>
+                                                .rating-group {
+                                                    display: inline-flex;
+                                                }
+
+                                                /* make hover effect work properly in IE */
+                                                .rating__icon {
+                                                    pointer-events: none;
+                                                }
+
+                                                /* hide radio inputs */
+                                                .rating__input {
+                                                    position: absolute !important;
+                                                    left: -9999px !important;
+                                                }
+
+                                                /* set icon padding and size */
+                                                .rating__label {
+                                                    cursor: pointer;
+                                                    padding: 0 0.1em;
+                                                    font-size: 2rem;
+                                                }
+
+                                                /* set default star color */
+                                                .rating__icon--star {
+                                                    color: orange;
+                                                }
+
+                                                /* set color of none icon when unchecked */
+                                                .rating__icon--none {
+                                                    color: #eee;
+                                                }
+
+                                                /* if none icon is checked, make it red */
+                                                .rating__input--none:checked + .rating__label .rating__icon--none {
+                                                    color: red;
+                                                }
+
+                                                /* if any input is checked, make its following siblings grey */
+                                                .rating__input:checked ~ .rating__label .rating__icon--star {
+                                                    color: #ddd;
+                                                }
+
+                                                /* make all stars orange on rating group hover */
+                                                .rating-group:hover .rating__label .rating__icon--star {
+                                                    color: orange;
+                                                }
+
+                                                /* make hovered input's following siblings grey on hover */
+                                                .rating__input:hover ~ .rating__label .rating__icon--star {
+                                                    color: #ddd;
+                                                }
+
+                                                /* make none icon grey on rating group hover */
+                                                .rating-group:hover .rating__input--none:not(:hover) + .rating__label .rating__icon--none {
+                                                    color: #eee;
+                                                }
+
+                                                /* make none icon red on hover */
+                                                .rating__input--none:hover + .rating__label .rating__icon--none {
+                                                    color: red;
+                                                }
+
+                                                }
+                                            </style>
+                                        </div>
+                                    </div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-3">
+                <div class="row g-4 fruite">
+                    <div class="col-lg-12">
+                        <div class="input-group w-100 mx-auto d-flex mb-4">
+                            <form asp-action="Search" asp-controller="HangHoa">
+                                <div>
+                                <div id="cover1">
+                                    <div class="tb1">
+                                        <div class="td1"><input type="text" placeholder="Search" name="query" required class="custom-input1"></div>
+                                        <div class="td1" id="s-cover1">
+                                            <button type="submit" class="custom-button1">
+                                                <div id="s-circle1"></div>
+                                                <span></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <style>
+                                        * {
+                                            outline: none;
+                                        }
+
+
+
+                                        .tb1 {
+                                            display: table;
+                                            width: 100%;
+                                        }
+
+                                        .td1 {
+                                            display: table-cell;
+                                            vertical-align: middle;
+                                        }
+
+                                        .custom-input1 {
+                                            color: #fff;
+                                            font-family: Arial;
+                                            padding: 0;
+                                            margin: 0;
+                                            border: 0;
+                                            background-color: transparent;
+                                            width: 100%;
+                                            height: 100%;
+                                            font-size: 40px;
+                                            line-height: 1;
+                                        }
+
+                                        input[type="text"]::placeholder {
+                                            color: #fff;
+                                        }
+
+                                        #cover1 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 0;
+                                            right: 0;
+                                            height: 125px;
+                                            width: 520px;
+                                            padding: 35px;
+                                            margin: -40px 0 0px -110px;
+                                            background-color: #81c408;
+                                            border-radius: 20px;
+                                            box-shadow: 0 10px 40px #81c408, 0 0 0 20px #ffffffeb;
+                                            transform: scale(0.6);
+                                        }
+
+
+
+                                        #s-cover1 {
+                                            width: 1px;
+                                            padding-left: 35px;
+                                        }
+
+                                        .custom-button1 {
+                                            color: #fff;
+                                            font-family: Nunito;
+                                            padding: 0;
+                                            margin: 0;
+                                            border: 0;
+                                            background-color: transparent;
+                                            position: relative;
+                                            display: block;
+                                            width: 84px;
+                                            height: 96px;
+                                            cursor: pointer;
+                                        }
+
+                                        #s-circle1 {
+                                            position: relative;
+                                            top: -8px;
+                                            left: 0;
+                                            width: 76px;
+                                            height: 76px;
+                                            margin-top: -15px;
+                                            margin-left: -15px;
+                                            border-width: 15px;
+                                            border: 15px solid #fff;
+                                            background-color: transparent;
+                                            border-radius: 50%;
+                                            transition: 0.5s ease all;
+                                        }
+
+
+
+                                        #s-cover1:hover #s-circle1 {
+                                            top: -1px;
+                                            width: 67px;
+                                            height: 15px;
+                                            border-width: 0;
+                                            background-color: #fff;
+                                            border-radius: 20px;
+                                        }
+
+                                        #s-cover1:hover span {
+                                            top: 50%;
+                                            left: 56px;
+                                            width: 25px;
+                                            margin-top: -11px;
+                                            transform: rotateZ(0);
+                                        }
+
+                                        #s-cover1:hover button span:before {
+                                            bottom: 11px;
+                                            transform: rotateZ(52deg);
+                                        }
+
+                                        #s-cover1:hover button span:after {
+                                            bottom: -11px;
+                                            transform: rotateZ(-52deg);
+                                        }
+
+                                        #s-cover1:hover button span:before,
+                                        #s-cover1:hover button span:after {
+                                            right: -6px;
+                                            width: 40px;
+                                            background-color: #fff;
+                                        }
+
+                                    </style>
+                                </div>
+                            </form>
+                        </div>
+                        @await Component.InvokeAsync("MenuLoai")
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- Single Product End -->
+<!-- Single Page Header End -->
+<script src="https://ajax.googleapis.com/ajax/~libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/easing/easing.min.js"></script>
+<script src="~/lib/waypoints/waypoints.min.js"></script>
+<script src="~/lib/lightbox/js/lightbox.min.js"></script>
+<script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="~/x`js/main.js"></script>
+<style>
+    * {
+        outline: none;
+    }
+
+
+
+    .tb1 {
+        display: table;
+        width: 100%;
+    }
+
+    .td1 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .custom-input1 {
+        color: #fff;
+        font-family: Arial;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    input[type="text"]::placeholder {
+        color: #fff;
+    }
+
+    #cover1 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        height: 125px;
+        width: 520px;
+        padding: 35px;
+        margin: -40px 0 0px -110px;
+        background-color: #81c408;
+        border-radius: 20px;
+        box-shadow: 0 10px 40px #81c408, 0 0 0 20px #ffffffeb;
+        transform: scale(0.6);
+    }
+
+
+
+    #s-cover1 {
+        width: 1px;
+        padding-left: 35px;
+    }
+
+    .custom-button1 {
+        color: #fff;
+        font-family: Nunito;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background-color: transparent;
+        position: relative;
+        display: block;
+        width: 84px;
+        height: 96px;
+        cursor: pointer;
+    }
+
+    #s-circle1 {
+        position: relative;
+        top: -8px;
+        left: 0;
+        width: 76px;
+        height: 76px;
+        margin-top: -15px;
+        margin-left: -15px;
+        border-width: 15px;
+        border: 15px solid #fff;
+        background-color: transparent;
+        border-radius: 50%;
+        transition: 0.5s ease all;
+    }
+
+
+
+    #s-cover1:hover #s-circle1 {
+        top: -1px;
+        width: 67px;
+        height: 15px;
+        border-width: 0;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    #s-cover1:hover span {
+        top: 50%;
+        left: 56px;
+        width: 25px;
+        margin-top: -11px;
+        transform: rotateZ(0);
+    }
+
+    #s-cover1:hover button span:before {
+        bottom: 11px;
+        transform: rotateZ(52deg);
+    }
+
+    #s-cover1:hover button span:after {
+        bottom: -11px;
+        transform: rotateZ(-52deg);
+    }
+
+    #s-cover1:hover button span:before,
+    #s-cover1:hover button span:after {
+        right: -6px;
+        width: 40px;
+        background-color: #fff;
+    }
+
+</style>

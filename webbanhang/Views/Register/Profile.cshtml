@@ -1,0 +1,143 @@
+﻿@using System.Security.Claims;
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Profile</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+    </ol>
+</div>
+<label></label>
+<label></label>
+<label></label>
+
+
+<div class="container emp-profile">
+    <form method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-img" >
+                    <img src="~/Hinh/Account/@Context.User.FindFirstValue("Hinh")" class="fixed-size-image" />                   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="profile-head">
+                    <h5>
+                        @Context.User.FindFirstValue(ClaimTypes.Name)
+                    </h5>                                      
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab"  role="tab" aria-controls="home" aria-selected="true">Thông tin tài khoản</a>
+                        </li>                     
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <input asp-action="CapNhatProfile" asp-controller="Register" type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-8">
+                <div class="tab-content profile-tab" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>UserName</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Context.User.FindFirstValue("User_name")</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Họ Tên</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Context.User.FindFirstValue(ClaimTypes.Name)</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Email</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Context.User.FindFirstValue(ClaimTypes.Email)</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Phone</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Context.User.FindFirstValue(ClaimTypes.MobilePhone)</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Địa chỉ:</label>
+                            </div>
+                           
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Tỉnh/Thành Phố</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Context.User.FindFirstValue("Tinh")</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Quận/Huyện/Thị xã/Thành Phố thuộc tỉnh</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Context.User.FindFirstValue("Huyen")</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Xã/Phường/Thị trấn</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Context.User.FindFirstValue("Xa")</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Đường/Thôn/Số nhà</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Context.User.FindFirstValue("address")</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Ngày tạo tài khoản</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Context.User.FindFirstValue("NgayTao")</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                                <button type="submit" asp-action="DangXuat" asp-controller="Register" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Đăng xuất</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<style>
+    .fixed-size-image {
+        max-width: 350px; /* Đặt chiều rộng tối đa cố định */
+        max-height: 350px; /* Đặt chiều cao tối đa cố định */
+        width: 100%; /* Đảm bảo ảnh không vượt quá kích thước cố định */
+        height: auto; /* Cho phép ảnh tự động thay đổi chiều cao theo tỉ lệ */
+        border-radius: 50%; /* Đặt độ cong của các góc để tạo hình dạng tròn */
+        overflow: hidden; /* Đảm bảo phần ảnh vượt ra ngoài đường viền của hình tròn bị ẩn đi */
+    }
+
+</style>

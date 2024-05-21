@@ -1,0 +1,58 @@
+﻿@model IEnumerable<webbanhang.ViewModels.orderVm>
+
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Lịch sử mua hàng</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+    </ol>
+</div>
+<span class="text-danger">@TempData["Message"]</span>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Sản phẩm</th>
+                <th scope="col">Tên sản phẩm</th>
+                <th scope="col">Đơn giá</th>
+                <th scope="col">Size</th>
+                <th scope="col">Số lượng</th>
+                <th scope="col">Thành tiền</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">
+                        <div class="d-flex align-items-center">
+                            <img src="~/Hinh/product1/@item.Hinh" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </th>
+                    <td>
+                        <a asp-action="ChiTietHH" asp-controller="HangHoa" asp-route-id="@item.Mahh">
+                            <p class="mb-0 mt-4">@item.TenHh</p>
+                        </a>
+                    </td>
+                    <td>
+                        <p class="mb-0 mt-4">@string.Format("{0:N0} VNĐ", @item.DonGia)</p>
+                    </td>
+                    <td>
+                        <p class="mb-0 mt-4">@item.Size</p>
+                    </td>
+                    <td>
+                        <div class="input-group quantity mt-4" style="width: 100px;">
+                            
+                            <input type="text" class="form-control form-control-sm text-center border-0" name="quantity" value="@item.SoLuong">
+                            
+                        </div>
+                    </td>
+                    <td>
+                        <p class="mb-0 mt-4">@string.Format("{0:N0} VNĐ", @item.ThanhTien)</p>
+                    </td>
+                    
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

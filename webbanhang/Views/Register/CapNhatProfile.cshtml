@@ -1,0 +1,120 @@
+﻿@using System.Security.Claims;
+@model webbanhang.ViewModels.ProfileVM
+@{
+    ViewData["Title"] = "Cập nhật thông tin";
+}
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Cập nhật thông tin cá nhân</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+    </ol>
+</div>
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Cập nhật thông tin cá nhân</h1>
+        <span class="text-danger">@TempData["Message"]</span>
+        <form asp-action="CapNhatProfile" asp-controller="Register" enctype="multipart/form-data">
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Email" class="form-label my-3"></label>
+                            <input asp-for="@Model.Email" class="form-control">
+                            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Name" class="form-label my-3"></label>
+                            <input asp-for="@Model.Name" class="form-control">
+                            <span asp-validation-for="@Model.Name" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Phone" class="form-label my-3"></label>
+                            <input asp-for="@Model.Phone" class="form-control">
+                            <span asp-validation-for="@Model.Phone" class="text-danger"></span>
+                        </div>
+                    </div>
+                   >
+                </div>
+                <div class="row">
+                    <label class="form-label my-3">Địa chỉ: </label>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Province" class="form-label my-3"></label>
+                            <input asp-for="@Model.Province" class="form-control">
+                            <span asp-validation-for="@Model.Province" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Ward" class="form-label my-3"></label>
+                            <input asp-for="@Model.Ward" class="form-control">
+                            <span asp-validation-for="@Model.Ward" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Districs" class="form-label my-3"></label>
+                            <input asp-for="@Model.Districs" class="form-control">
+                            <span asp-validation-for="@Model.Districs" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="@Model.Address" class="form-label my-3"></label>
+                            <input asp-for="@Model.Address" class="form-control">
+                            <span asp-validation-for="@Model.Address" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="form-label my-3" for="Avatar">Ảnh đại diện</label>
+                    <input type="file" id="Avatar" name="Avatar" class="form-control" onchange="previewImage(event)">
+                </div>
+                <div class="preview-container">
+                    <img id="preview" src="#" alt="Ảnh đại diện của bạn">
+                </div>
+                <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                    <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Xác nhận</button>
+                </div>
+            </div>
+        </form>       
+    </div>
+</div>
+<script>
+    function previewImage(event) {
+        var input = event.target;
+        var preview = document.getElementById('preview');
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                preview.src = e.target.result;
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        } else {
+            preview.src = "#";
+        }
+    }
+</script>
+<style>
+    #preview {
+        width: 200px; /* Chiều rộng cố định */
+        height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+        max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước của cha */
+        max-height: 200px; /* Chiều cao tối đa */
+    }
+</style>

@@ -1,0 +1,128 @@
+﻿@model IEnumerable<webbanhang.ViewModels.UpdateVM>
+@{
+    ViewData["Title"] = "Chỉnh sửa sản phẩm";
+    Layout = "_AdminLayout";
+}
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Chỉnh sửa thông tin sản phẩm</h1>
+        <span class="text-danger">@TempData["Message"]</span>
+        <span class="text-success">@TempData["Messagei"]</span>
+        <form asp-action="Update" asp-controller="Admin" enctype="multipart/form-data">
+            <div class="row">
+                @foreach (var item in ViewBag.Products)
+                {
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label  class="form-label my-3">Tên sản phẩm</label>
+                            <input name="ProductName" value="@item.ProductName" class="form-control">                           
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label  class="form-label my-3">Đơn giá</label>
+                            <input  value="@item.Price" name="Price" class="form-control">
+                            
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label  class="form-label my-3">Số lượng hàng trong kho</label>
+                            <input value="@item.Quantity" name="Quantity" class="form-control">
+                           
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label  class="form-label my-3"></label>
+                            <input name="Specifications" value="@item.Specifications" class="form-control">
+                          
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item">
+                            <input name="Description" class="form-control mt-2" spellcheck="false" cols="30" rows="11" value="@item.Description"></input>
+                        </div>
+                    </div>
+                  
+                    <div class="col-md-12 col-lg-6">
+                        <div class="preview-container">
+                            <img id="preview" src="~/Hinh/product1/@item.Image1" alt="Ảnh sản phẩm">
+                        </div>
+                    </div>
+                }
+                <div class="col-md-12 col-lg-6">
+                    <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4 mt-5">
+                        <label for="fruits">Brand : </label>
+                        <input type="hidden" id="Genre_ID" name="Tenbrand" value="a">
+                        <select id="BrandSelect" name="Genre_ID" class="border-0 form-select-sm bg-light me-3">
+                            @foreach (var item in ViewBag.Brands)
+                            {
+                                
+                                <option value="@item.Mabrand">@item.Tenbrand</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4 mt-5">
+                        <label for="fruits">Tên loại sản phẩm: </label>
+                        <input type="hidden" id="Brand_ID" name="Tenloai" value="a">
+
+                        <select id="GenreSelect" name="Brand_ID" class="border-0 form-select-sm bg-light me-3">
+                            @foreach (var item in ViewBag.Genres)
+                            {
+                                <option value="@item.MaLoai">@item.Tenloai</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6">
+                    <div class="form-item">
+                        <label class="form-label my-3" for="Avatar">Thay đổi ảnh sản phẩm</label>
+                        <input type="file" id="Avatar" name="Image" class="form-control" onchange="previewImage(event)">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                        <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Xác nhận</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+</div>
+<script>
+    function previewImage(event) {
+        var input = event.target;
+        var preview = document.getElementById('preview');
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                preview.src = e.target.result;
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        } 
+    }
+    function updateName(selectElement) {
+        var selectedOption = selectElement.options[selectElement.selectedIndex];
+        selectElement.name = selectedOption.value;
+    }
+</script>
+<style>
+    #preview {
+        width: 200px; /* Chiều rộng cố định */
+        height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+        max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước của cha */
+        max-height: 200px; /* Chiều cao tối đa */
+    }
+</style>
+

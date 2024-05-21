@@ -1,0 +1,30 @@
+﻿@model webbanhang.ViewModels.AddBrand
+@{
+    ViewData["Title"] = "Cập nhật thông tin nhãn hàng";
+    Layout = "_AdminLayout";
+}
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Thêm sản phẩm mới</h1>
+        <span class="text-danger">@TempData["Message"]</span>
+        <span class="text-success">@TempData["Messagei"]</span>
+        <form asp-action="UpdateBrand" asp-controller="Admin">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="form-item w-100">
+                        <label class="form-label my-3">Tên nhãn hàng</label>
+                        <input value="@Model.BrandName" name="BrandName" class="form-control">
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6">
+                    <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                        <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Xác nhận</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
